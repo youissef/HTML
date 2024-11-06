@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" val>
+    <title>Reinsciption</title>
+    <link rel="stylesheet" href="/FORM/reinscription.css">
+</head>
+<body>
+    <h1>Reinscription au titre de l'annee universitaire 2024/2025</h1>
+    <form method="post" action="">
+        <fieldset>
+            <legend>Information personnelles :</legend>
+            <br>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+            <br>
+            <label for="prenom">Prenom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <br>
+            <br>
+
+            <label for="CIN">CIN :</label>
+            <input type="text" name="CIN" id="CIN">
+            <br>
+            <br>
+            
+            <label for="date">date de naissence :</label>
+            <input type="date" name="date" id="date" required>
+            <br>
+            <br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+
+            <label for="NUM">Numero de Tel :</label>
+            <input type="text" name="NUM" id="NUM" maxlength="10">
+            <br>
+            <br>
+
+            <input type="radio" name="genre" value="Homme">Homme
+            <br>
+            <br>
+            <input type="radio" name="genre" value="Femme">femme
+            <br>
+            <br>
+
+            <label for="photo"> Photo recent</label>
+            <input type="file" name="photo">
+
+        </fieldset>
+        <br>
+        <hr>
+        <br>
+        <fieldset>
+            <legend>Information Scolarite :</legend>
+            <br>
+        <label for="massar">Code Massar :</label>
+        <input type="text" name="massar">
+        <br>
+        <br>
+
+        <label for="apogee"> Numero Apogee</label>
+        <input type="text" name="apogee" id="apogee">
+        <br>
+        <br>
+
+        <label for="nivaux">Niveau d'etude</label>
+            <select>
+                <option value="option1">Ajourne en 1ere Annee</option>
+                <option value="option2">Admis </option>
+                <option value="option3">Ajourne en 2eme Annee</option>
+            </select>
+            <br>
+            <br>
+
+        <label for="modules">Modules non valide :</label>
+        <br>
+            <input type="checkbox" name="Modules" id="modules"> M1   
+            <input type="checkbox" name="Modules" id="modules"> M2  
+            <input type="checkbox" name="Modules" id="modules"> M3   
+            <input type="checkbox" name="Modules" id="modules"> M4
+            <br>   
+            <input type="checkbox" name="Modules" id="modules"> M5
+            <input type="checkbox" name="Modules" id="modules"> M6
+            <input type="checkbox" name="Modules" id="modules"> M7
+            <input type="checkbox" name="Modules" id="modules"> M8
+            <br>
+            <br>
+            <label for="PFE">Proposition du PFE :</label>
+            <br>
+            <textarea placeholder="saisir un sujet que vous proposez pour votre PFE" rows="4" ></textarea>
+            <br>
+            <label for="attestation">Attestation du stage d'initiation</label>
+            <input type="file" name="attestation" id="attestation">
+        </fieldset>
+        <br>
+        <hr>
+        <br>
+        <fieldset>
+            <label for="submet"></label>
+            <input type="submit" value="valider">
+            <input type="reset" value="Anneler">
+        </fieldset>
+        
+    </form>
+</body>
+</html>
