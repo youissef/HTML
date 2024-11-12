@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(247, 244, 214);
+    padding: 0% 10%;
+}
+header{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#bannerImg{
+    width: 100%;
+}
+
+#logo_titre{
+    display: flex;
+    align-items: left;
+}
+header div h1{
+    color: rgb(23, 42, 148);
+}
+header nav ul{
+    list-style-type: none;
+    margin-top: 4px;
+    display: flex;
+    justify-content: right;
+}
+header nav ul li a{
+    display: flex;
+    justify-items: space-between;
+    color: rgb(23, 42, 148) ;
+    text-transform: uppercase;
+    margin: 10px;
+}
+#titre{
+    text-align: center;
+
+}
+article{
+    padding-right: 10%;
+}
+a{
+    text-decoration: none;
+}
+#banniere_image{
+    background-image: url(/images/EST.jpg);
+    background-repeat: no-repeat;
+}
