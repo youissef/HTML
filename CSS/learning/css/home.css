@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(26, 147, 192);
+    text-align: center;
+}
+
+.div1,
+.div2 {
+    width: 40%;
+    height: 200px;
+    border: 2px solid #6e6e6e;
+    color: rgb(0, 0, 0);
+    background-color: #6e6e6e;
+    font-family: sans-serif;
+    margin: 20px;
+    padding-left: 10px;
+    border-left: 10px solid green;
+}
+
+.div1 h2,
+.div2 h2 {
+    color: aliceblue;
+    text-decoration: underline rgb(7, 49, 67);
+    text-transform: uppercase;
+    text-shadow: 2px 2px rgb(7, 49, 67);
+    font-style: italic;
+    font-size: 25px;
+}
+
+.div1 p,
+.div2 p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: medium;
+}
+a{
+    font: 10px ;
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: rgb(168, 0, 0);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(6, 58, 149);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(161, 0, 81);
+}
+
+/* selected link */
+a:active {
+    color: rgb(0, 0, 168);
+}
