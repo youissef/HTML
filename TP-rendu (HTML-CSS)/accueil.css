@@ -1,0 +1,180 @@
+
+body {
+    background-color: rgb(247, 244, 214);
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* header */
+header ,
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    position: relative;
+}
+header #logo_titre {
+    display: flex;
+    justify-content: space-between; 
+}  
+header h1{
+    font-size: 20px;
+    color: #213fa5;
+    padding-left: 8px;
+    font-family: serif;
+    text-shadow: 1px 1px 0.5px #000000ec ;
+}
+header ul li {
+    list-style-type: none;
+    float: left;
+    padding: 8px;
+    padding-top: 12px;
+}
+header li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #213fa5;
+    font-weight: 500;
+    font-family: serif;
+    text-shadow: 1px 1px 0.5px #000 ;
+}
+header li a:hover{
+    color: #0f8b3c;
+}
+header::after {
+    content: "";
+    width: 100%;
+    height: 1.3px;
+    background-color: #000;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: -3px;
+}
+
+/* banniere */
+#banniere_image {
+    background-image: url(images/EST.jpg);
+    height: 265px;
+    position: relative;
+    box-shadow: -2px 5px 2px rgb(0, 0, 0,0.8);
+}
+#banniere_description {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(14, 11, 73, 0.53);
+    border-radius: 7px;
+    width: 98%;
+    color: #fff;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+}
+.red-button{
+    background-color: rgb(135, 0, 0);
+    height: 27px;
+    width: 140px;
+    border-radius: 7px;
+    color: #fff;
+    padding-top: 3px;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+}
+.red-button:hover{
+    color: #0f8b3c;
+    border-radius: 0;
+    animation-delay: 5s;
+}
+
+/* section */
+section {
+    display: flex;
+    margin: 10px auto;
+    position: relative;
+    gap: 2%; 
+}
+article {
+    width: 62%;
+}
+article h1, aside h1, footer h1 {
+    color: #00509E;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0.5px #000 ;
+    font-weight: 400;
+    font-family: serif;
+}
+.directeur {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.photo_directeur {
+    width: 150px;
+    border-radius: 10px;
+}
+article p {
+    line-height: 1.6;
+    margin-bottom: 3px;
+    text-align: justify;
+}
+
+/* Aside */
+aside {
+    width: 35%;
+    padding-left: 7px;
+    background-color: #bade84;
+    border: 0.5px solid #000;
+    border-radius: 4px;
+    box-shadow: -3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+aside h4 {
+    color: #1e1eb1;
+    text-shadow: 1px 1px 0.5px #000;
+    letter-spacing: 1px;
+}
+aside ul li {
+    line-height: 2;
+}
+aside ul li a {
+    color: rgb(77, 6, 191);
+}
+aside ul li :hover {
+    color: #165255;
+}
+aside p img {
+    padding: 8px;
+    width: 40px;
+}
+section::after {
+    content: '';
+    width: 100%;
+    height: 1.3px;
+    background-color: #000;
+    position: absolute;
+    bottom: -20px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+footer h1 {
+    font-size: 17px;
+    padding-left: 10%;
+}
+#plateformes a img {
+    border: 1px solid #000;
+}
+#etablissements ul {
+    list-style-type: circle;
+}
+#etablissements ul li a {
+    line-height: 1.6;
+    text-decoration: none;
+    color: #5e311b;
+    font-size: 17px;
+}
